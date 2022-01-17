@@ -6,25 +6,16 @@ public:
         
         // checking for rows
         for(int i=0;i<row;i++){
-            set<int> t;
+            set<int> r,c;
             for(int j=0;j<column;j++){
-                t.insert(matrix[i][j]);
+                r.insert(matrix[i][j]);
+                c.insert(matrix[j][i]);
             }
-            if(t.size()!=row){
+            if(r.size()!=row || c.size()!=column){
                 return false;
             }
         }
         
-        // checking for columns
-        for(int i=0;i<row;i++){
-            set<int> t;
-            for(int j=0;j<column;j++){
-                t.insert(matrix[j][i]);
-            }
-            if(t.size()!=column){
-                return false;
-            }
-        }
         return true;
     }
 };
