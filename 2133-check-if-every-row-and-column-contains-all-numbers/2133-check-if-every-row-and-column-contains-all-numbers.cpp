@@ -4,7 +4,7 @@ public:
         int row = matrix.size();
         int column = matrix[0].size();
         
-        // checking for rows
+        // checking for rows and columns
         for(int i=0;i<row;i++){
             set<int> r,c;
             for(int j=0;j<column;j++){
