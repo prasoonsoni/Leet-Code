@@ -1,2 +1,4 @@
 # Leet-Code
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub).
+### Visit my profile on Leet Code profile [here!!](https://prasoon.codes/leetcode)
+
+Collection of LeetCode questions to ace the coding interview!
